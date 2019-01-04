@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(foto/backgrounddog6.jpg);
+    background-size: 1366px 900px;
+    font-family: "lobster two";   
+}
+/*koniec stylowania body*/
+nav {
+    overflow: visible;
+    height: 180px;
+    text-align: center;
+    display: block;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 256px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+   }
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+ul li a:hover {
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+}
+
+ul li ul li {
+    display: none;
+    margin-left: 0.9px;
+    margin-top: 0px;
+    
+}
+
+ul li:hover ul li {
+    display:block;
+    opacity: 1;
+}
+nav .active{
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+}
+/*koniec stylowania menu*/
+header h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+}
+/*stylowanie nagłówku*/
+
+h2 {
+    color: turquoise;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: underline;
+    opacity: 0,8;
+    font-size: 30px;
+    font-family: "lobster two";
+    text-align: center;
+    margin-bottom: 60px;
+    }
+
+article {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: justify;
+    width: 75%;
+    text-align: center;
+    padding-left: 25%;
+    color: turquoise;
+    text-shadow: 3px 3px 3px black;
+    font-family: "Lobster Two";
+    margin: 20px;
+}
+article ul li {
+    display: block;
+    text-align: justify right;
+    float: none;
+    width: 100%;
+    text-decoration: none;
+    background: none;
+    border: none;
+    line-break: 20px;
+    line-height: 20px;
+    font-size: 30px;
+}
+/*koniec stylowania pierwszego artykułu*/
